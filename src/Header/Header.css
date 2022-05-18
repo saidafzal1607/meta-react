@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@400;500;700&family=Inspiration&family=Karla:wght@400;500;600;700;800&family=Noto+Sans:wght@400;700&family=Palette+Mosaic&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Qahiri&family=Red+Hat+Display:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700&family=Source+Sans+Pro:wght@200;300;400;600;700;900&family=The+Nautigal:wght@400;700&family=Wallpoet&display=swap');
+
+header{
+    padding-top:48px ;
+}
+
+.header__container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .nav__logo{
+    width: 123px;
+    height: 32px;
+} */
+
+.nav__link{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 16px;
+    font-family:'DM Mono', monospace ;
+    padding: 10px 20px;
+}
+
+.icons__link{
+    color: #000;
+    background: #ffffff;
+    margin: 7px 12px;
+    padding: 10px;
+}
+
+.icons__link svg{
+    height: 22px;
+    width: 22px;
+}
