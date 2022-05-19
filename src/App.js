@@ -1,5 +1,4 @@
-import './App.css';
-import Header from './Header/Header';
+import Header from "./Header/Header";
 
 function App() {
   return (
@@ -7,6 +6,7 @@ function App() {
       <Header/>
     </div>
   );
+
 }
 
 export default App;
